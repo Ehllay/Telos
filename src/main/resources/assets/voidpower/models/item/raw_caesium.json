@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "endermantech:item/caesium_ingot"
+    "layer0": "voidpower:item/raw_caesium"
   }
 }

@@ -1,6 +1,6 @@
-package net.acp.endermantech.items;
+package net.acp.voidpower.items;
 
-import net.acp.endermantech.EndermanTech;
+import net.acp.voidpower.VoidPower;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -10,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class BoringItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, EndermanTech.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, VoidPower.MOD_ID);
 
     public static final RegistryObject<Item> CAESIUM_INGOT = ITEMS.register("caesium_ingot",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));

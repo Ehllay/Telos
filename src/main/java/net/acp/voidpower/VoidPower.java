@@ -1,32 +1,23 @@
-package net.acp.endermantech;
+package net.acp.voidpower;
 
-import net.acp.endermantech.items.BoringItems;
-import net.minecraft.world.level.block.Block;
+import net.acp.voidpower.items.BoringItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
-import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.stream.Collectors;
-
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(EndermanTech.MOD_ID)
-public class EndermanTech {
+@Mod(VoidPower.MOD_ID)
+public class VoidPower {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
-    public static final String MOD_ID = "endermantech";
+    public static final String MOD_ID = "voidpower";
 
-    public EndermanTech() {
+    public VoidPower() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         BoringItems.register(eventBus);

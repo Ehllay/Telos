@@ -3,9 +3,9 @@ loaderVersion="[39,)"
 license="MIT"
 issueTrackerURL="https://github.com/AcceptCookiesPls/EndermanTechMod/issues"
 [[mods]]
-modId="endermantech"
+modId="voidpower"
 version="${file.jarVersion}"
-displayName="EndermanTech"
+displayName="VoidPower"
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
@@ -15,7 +15,7 @@ authors="AcceptCookiesPls"
 description='''
 A mod about harnessing the energy of the End and the void
 '''
-[[dependencies.endermantech]]
+[[dependencies.voidpower]]
     modId="forge"
     mandatory=true
 
@@ -23,7 +23,7 @@ A mod about harnessing the energy of the End and the void
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.endermantech]]
+[[dependencies.voidpower]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.18.1,1.19)"
