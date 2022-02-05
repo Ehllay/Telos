@@ -1,4 +1,4 @@
-# EndermanTechMod
+# VoidPower
 My first mod. It's gonna be a End themed tech mod (Not  like EnderIO btw)
 
 This mod is gonna work by getting energy from the void
