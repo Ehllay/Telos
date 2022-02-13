@@ -1,6 +1,7 @@
-package net.acp.voidpower;
+package net.acp.astralenergy;
 
-import net.acp.voidpower.items.BoringItems;
+import net.acp.astralenergy.block.BoringBlocks;
+import net.acp.astralenergy.item.BoringItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -11,16 +12,17 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(VoidPower.MOD_ID)
-public class VoidPower {
+@Mod(AstralEnergy.MOD_ID)
+public class AstralEnergy {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
-    public static final String MOD_ID = "voidpower";
+    public static final String MOD_ID = "astralenergy";
 
-    public VoidPower() {
+    public AstralEnergy() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         BoringItems.register(eventBus);
+        BoringBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 

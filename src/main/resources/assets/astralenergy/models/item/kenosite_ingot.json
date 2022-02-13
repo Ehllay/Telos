@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "voidpower:item/raw_caesium"
+    "layer0": "astralenergy:item/kenosite_ingot"
   }
 }

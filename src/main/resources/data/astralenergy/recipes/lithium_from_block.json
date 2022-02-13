@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "astralenergy:lithium_block"
+    }
+  ],
+  "result": {
+    "item": "astralenergy:lithium",
+    "count": 9
+  }
+}

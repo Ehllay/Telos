@@ -17,8 +17,8 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = '1.0-1.18.1'
-group = 'net.acp.voidpower' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'voidpower'
+group = 'net.acp.astralenergy' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'astralenergy'
 
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -59,7 +59,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                voidpower {
+                astralenergy {
                     source sourceSets.main
                 }
             }
@@ -81,7 +81,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                voidpower {
+                astralenergy {
                     source sourceSets.main
                 }
             }
@@ -103,10 +103,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'voidpower', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'astralenergy', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                voidpower {
+                astralenergy {
                     source sourceSets.main
                 }
             }
@@ -150,12 +150,12 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "voidpower",
-                "Specification-Vendor"    : "voidpowersareus",
+                "Specification-Title"     : "astralenergy",
+                "Specification-Vendor"    : "astralenergysareus",
                 "Specification-Version"   : "1", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
-                "Implementation-Vendor"   : "voidpowersareus",
+                "Implementation-Vendor"   : "astralenergysareus",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }

@@ -1,0 +1,12 @@
+{
+  "item.astralenergy.lithium": "Lithium",
+  "item.astralenergy.kenosite_ingot": "Kenosite Ingot",
+
+
+  "block.astralenergy.kenosite_block": "Block of Kenosite",
+  "block.astralenergy.lithium_ore": "Lithium Ore",
+  "block.astralenergy.deepslate_lithium_ore": "Deepslate Lithium Ore",
+  "block.astralenergy.lithium_block": "Block of Lithium",
+
+  "itemGroup.astralenergytab": "Astral Energy"
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "astralenergy:lithium_block",
+    "astralenergy:lithium_ore",
+    "astralenergy:deepslate_lithium_ore",
+    "astralenergy:kenosite_block"
+  ]
+}

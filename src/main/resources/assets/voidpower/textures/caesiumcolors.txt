@@ -1,4 +1,0 @@
-Copper textures
-
-Tone: +15
-Saturation: -25

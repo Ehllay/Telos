@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "astralenergy:lithium_ore"
+  },
+  "result": "astralenergy:lithium",
+  "experience": 0.35,
+  "cookingtime": 200
+}

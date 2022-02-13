@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "astralenergy:kenosite_block"
+    }
+  ],
+  "result": {
+    "item": "astralenergy:kenosite_ingot",
+    "count": 9
+  }
+}

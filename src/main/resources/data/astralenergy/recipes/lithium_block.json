@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "astralenergy:lithium"
+    }
+  },
+  "result": {
+    "item": "astralenergy:lithium_block"
+  }
+}
