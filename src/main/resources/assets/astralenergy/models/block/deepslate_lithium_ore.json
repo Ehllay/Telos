@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "astralenergy:block/deepslate_lithium_ore"
-  }
-}
